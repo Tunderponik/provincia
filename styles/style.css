@@ -1,0 +1,23 @@
+@import url("https://fonts.google.com/specimen/Rubik+Mono+One");
+
+h1 {
+    font-family: "Rubik Mono One";
+}
+
+h2 {
+    font-size: 55px;
+    color: blue;
+}
+p, li, tr, td {
+    font-size: 30px;
+}
+h3  {
+    font-size: 45px;
+    color: green;
+}
+
+/*fondo bandera*/
+body {
+    background: rgb(210,16,241);
+    background: linear-gradient(90deg, rgba(210,16,241,1) 0%, rgba(10,232,231,1) 0%, rgba(0,187,255,1) 100%);
+}
