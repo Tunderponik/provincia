@@ -1,19 +1,39 @@
-@import url("https://fonts.google.com/specimen/Rubik+Mono+One");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 h1 {
-    font-family: "Rubik Mono One";
+    font-family: 'Rubik Mono One', Arial;
+    font-style: italic;
 }
 
 h2 {
     font-size: 55px;
+    font-family: 'Rubik Mono One', Arial;
     color: blue;
 }
 p, li, tr, td {
     font-size: 30px;
+    font-family: 'Rubik';
 }
 h3  {
     font-size: 45px;
     color: green;
+    font-family: 'Rubik';
+}
+li {
+    display: inline;
+    font-family: 'Rubik', Arial;
+    font-size: 40px;
+    background: burlywood;
+    border: chocolate solid 10px;
+  }
+
+.imagenlado {
+   float: right;
+  }
+/*linea fea */
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
 
 /*fondo bandera*/
