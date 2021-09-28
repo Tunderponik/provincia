@@ -31,6 +31,29 @@ li {
 .imagenlado {
    float: right;
   }
+.imagendelado {
+    float: left;
+   }
+
+td {
+    border: black solid 5px;
+    font-size: 50px;
+    text-align: center;
+   }
+th {
+    border: royalblue solid 10px;
+    font-size: 50px;
+    text-align: center;
+    background:burlywood;
+   }
+table {
+    margin: auto;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
 /*linea fea */
 a:link, a:visited, a:active {
     text-decoration:none;
